@@ -1,0 +1,22 @@
+{
+  "name": "express-request-validation",
+  "version": "1.0.0",
+  "description": "This repository demonstrates how to validate incoming requests in an Express application using express-validator. Input validation is crucial to ensure data integrity, prevent malformed data, and add a security layer to your APIs.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

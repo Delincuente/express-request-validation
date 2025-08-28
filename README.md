@@ -3,6 +3,15 @@ This repository demonstrates how to validate incoming requests in an Express app
 
 ---
 
+## 🚀 Features
+
+- Install `express-validator` package
+- Create middleware for user validation
+- Centralized validation error handler middleware
+- Add middleware in user create URL
+
+---
+
 ## 🛠️ Setup Instructions
 
 1. Clone the repository

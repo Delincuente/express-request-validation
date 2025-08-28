@@ -1,3 +1,11 @@
+export const createUser = function (req, res) {
+    res.status(200).json({
+        success: true,
+        message: "User created",
+        data: req.body
+    });
+};
+
 function userController(req, res) {
     console.log('inputs:', req.body);
     res.send("Welcome user...");
